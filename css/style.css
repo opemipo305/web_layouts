@@ -3,3 +3,60 @@
     width: 80px;
     margin-right:1em;
 }
+.float-mulitpule{
+    min-height:100vh;
+}
+.float{
+    height: 150px;
+    width: 150px;
+    background:pink;
+    border:2px solid red;
+    float: left;
+}
+.fox{
+    padding: 1px;
+}
+.float-layout-one{
+         background: #a9e55b;
+         padding: 1em 2em;
+}
+.clearfix::after{
+    display:table;
+    content:'';
+    clear:both;
+}
+.col{
+    width:330px;
+   margin-right:3%;
+    float:left;
+}
+.sidebar-left{
+    width:25%;
+    float:left;
+}
+.main{
+    width: 50%;
+}
+.lion{
+ float: left;
+ background: #a9e55b;
+ width:150px;
+ border:2px solid black;
+ margin-inline:25px;
+}
+.lion img{
+max-width: 100%;
+    display: block;
+}
+.tiger{
+        position: absolute;
+        color:plum;
+        padding: 10px;
+}
+.lion p{
+    text-align: center;
+}
+.wolf{
+    margin-inline: auto;
+    padding-inline: auto;
+}
