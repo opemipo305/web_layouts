@@ -1,5 +1,18 @@
-#done{
-    float: left;    
-    width: 80px;
-    margin-right:1em;
+.fear{
+        background-color: lightgrey;
+        width:260px;
+        border: 15px solid white;
+        padding: 20px;
+        margin: 50px;
+}
+.feet{
+    width: 160px;
+    border: 50px solid blue;  
+}
+div h1{
+    align-items: center;
+}
+div p{
+    color: rgba(0, 0, 0, 0.541);
+    align-items: center;
 }
