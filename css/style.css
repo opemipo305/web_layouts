@@ -1,13 +1,12 @@
 .fear{
-        background-color: lightgrey;
+        background-color: white;
         width:260px;
-        border: 15px solid white;
+        border: 27px solid #d5e1ef;
         padding: 20px;
-        margin: 50px;
 }
 .feet{
     width: 160px;
-    border: 50px solid blue;  
+    border: 50px solid #2b7dfa;  
 }
 div h1{
     align-items: center;
@@ -15,4 +14,7 @@ div h1{
 div p{
     color: rgba(0, 0, 0, 0.541);
     align-items: center;
+}
+.map{
+        background-color:white;
 }
